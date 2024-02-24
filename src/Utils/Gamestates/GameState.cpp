@@ -28,7 +28,6 @@ void _BuildBoostPadIndexMap(Arena* arena) {
 				if (!found[i]) {
 					found[i] = true;
 					boostPadIndexMap[i] = j;
-					RG_LOG(j << ",");
 				} else {
 					RG_ERR_CLOSE(
 						ERROR_PREFIX << "Matched duplicate boost pad at " << targetPos << "=" << padPos
