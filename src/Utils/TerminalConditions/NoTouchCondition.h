@@ -23,6 +23,7 @@ namespace RLGSC {
 				}
 			}
 
+			stepsSinceTouch++;
 			return stepsSinceTouch >= maxSteps;
 		}
 	};
