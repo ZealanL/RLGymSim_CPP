@@ -3,7 +3,7 @@
 #include "../../Math.h"
 
 namespace RLGSC {
-	class GoalScoredCondition : public TerminalCondition {
+	class GoalScoreCondition : public TerminalCondition {
 	public:
 
 		virtual bool IsTerminal(const GameState& currentState) {
